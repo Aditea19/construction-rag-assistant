@@ -62,6 +62,23 @@ The application displays:
 3. Install Ollama and run ollama pull phi3
 4. Start application using streamlit run ui/streamlit_app.py
 
+## Ollama Setup (Local LLM)
+
+This project uses a local open-source Large Language Model through Ollama.
+
+Steps to install and prepare the model:
+
+1. Download Ollama from:
+```https://ollama.com```
+2. Install Ollama on your system
+3. Open a terminal and run:
+
+```ollama pull phi3```
+
+This downloads the Phi-3 (2.7B) local language model used for answer generation.
+
+Ollama runs as a background service and is automatically used by the application when it starts.
+
 ## Screenshots
 All screenshots used for evaluation are placed inside the screenshots folder.
 
