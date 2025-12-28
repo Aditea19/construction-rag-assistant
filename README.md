@@ -73,7 +73,7 @@ Steps to install and prepare the model:
 2. Install Ollama on your system
 3. Open a terminal and run:
 
-```ollama pull phi3```
+   ```ollama pull phi3```
 
 This downloads the Phi-3 (2.7B) local language model used for answer generation.
 
